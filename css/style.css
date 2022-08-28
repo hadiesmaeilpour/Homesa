@@ -263,11 +263,11 @@ li.slick-active button {
 }
 @media screen and (max-width:768px) {
 	.city-images2 {
-		width: 350px;
+		width: 350px !important;
 		height: 309px;	
 	}
 	.city-images2 img {
-		width: 350px;
+		width: 350px !important;
 		height: 309px;	
 	}
 }
