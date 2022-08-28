@@ -1,0 +1,457 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-rtl.css">
+<link rel="stylesheet" type="text/css" href="css/hover-min.css">
+<link rel="stylesheet" type="text/css" href="css/slick.css">
+<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+<link rel="stylesheet" type="text/css" href="css/all.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<title>داخلی بلاگ - inside blog</title>
+</head>
+
+<body>
+	<!-- Start Header -->
+    <header>
+	    <div class="bg-navbar">
+		    <div class="container ">
+                <nav class="navbar navbar-expand-md navbar-light px-md-0">
+                    <a class="navbar-brand d-md-none logo" href="index.html">
+                        <h2 class="mb-0"> Homesa <i class="fas fa-home"></i> </h2>
+                    </a>
+                    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#menu">
+                        <span class="navbar-toggler-icon">
+                            <i class="fas fa-bars" style="color:#fff; font-size:30px;"></i>
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="menu">
+                        <ul class="navbar-nav ml-auto menu pr-0 text-center">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="index.html">صفحه اصلی</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="category.html"> آخرین آگهی ها</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="blog.html">مقالات</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="contact Us.html">تماس با ما</a>
+                            </li>
+                            <li class="nav-item pl-2">
+                                <a class="nav-link text-white" href="about us.html">درباره ما</a>
+                            </li>
+                            <li class="nav-item border-right pr-2 ml-2 ">
+                                <a class="nav-link text-white" href="#"><i class="fas fa-user align-middle ml-1"></i>عضویت </a>
+                            </li>
+                            <li class="nav-item shadow mt-2 mt-lg-0">
+                                <a class="nav-link px-3" href="#"><i class="fas fa-plus align-middle ml-1"></i>ایجاد آگهی  </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a class="navbar-brand d-none d-md-block logo" href="index.html">
+                        <h2 class="mb-0"> Homesa <i class="fas fa-home"></i></h2>
+                    </a>
+                </nav>
+		    </div>
+	    </div>
+	    <div class="header-tow py-4">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<form class="d-lg-flex justify-content-center align-items-center text-center">
+						<input type="text" placeholder="عنوان آگهی . . . ." class="form-control ml-lg-3 mb-2 mb-lg-0">
+						<select class="custom-select ml-lg-3 mb-2 mb-lg-0">
+							<option selected> نوع ملک </option>
+							<option value="1"> ویلایی </option>
+							<option value="2"> اپارتمان </option>
+							<option value="3"> انبار </option>
+						</select>
+						<select class="custom-select ml-lg-3 mb-2 mb-lg-0">
+							<option selected> موقعیت </option>
+							<option value="1"> بالاشهر </option>
+							<option value="2"> وسط شهر </option>
+							<option value="3"> پایین شهر </option>
+						</select>
+						<select class="custom-select ml-lg-3 mb-2 mb-lg-0">
+							<option selected> قیمت </option>
+							<option value="1"> بالای 600 میلیون </option>
+							<option value="2"> از 250 میلیون تا 600 میلیون </option>
+							<option value="3">  از 0 تومن تا 250 میلیون </option>
+						</select>
+						<a href=""><button class="btn px-4 py-2 mt-2 mt-lg-0"> جستجو </button></a>
+					</form>
+				</div>
+			</div>
+		</div>
+	    </div>
+    </header>
+    <!-- End Header -->		
+	<main class="mt-5">	
+		<div class="container">
+			<!-- start breadcrumb -->
+			<div class="row">
+				<div class="col-12">
+					<div class="card border-0 bg-transparent">
+						<div class="card-body d-flex flex-column flex-lg-row justify-content-center justify-content-between text-center align-items-center">
+							<div>
+								<a href="index.html" class="text-danger"><small class="text-muted"> خانه <i class="fas fa-chevron-left align-middle"></i><small> </a>
+								<a href="blog.html" class="text-danger"><small class="text-muted "> آرشیو بلاگ<i class="fas fa-chevron-left align-middle"></i><small> </a>
+								<a href="#" class="text-danger mr-2"> نکاتی برای خرید خانه !!!!</a>
+							</div>
+							<h4 class="mt-2 text-right">  وبلاگ</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<!-- start sidebar -->
+				<div class="col-12 col-lg-4">
+					<div class="card border-0 shadow ">
+						<div class="card-body">
+							<form class="search ">
+								<div class="form-group search2 mb-2 pb-0">
+									<input type="search" class="form-control " placeholder="جستجو . . . ">
+									<a href="#" class="btn shadow"> <i class="fas fa-search align-middle"></i> </a>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="card border-0 shadow mt-3">
+						<div class="card-body category-p">
+							<p class="mb-4"> <strong> دسته بندی مطالب : </strong> </p>
+							<div class="d-flex justify-content-between align-items-center mb-3">
+								<a href="#" class="text-dark"> <i class="fas fa-chevron-left ml-1 align-middle"></i> سفر  </a>
+								<small> 6 مطلب </small>
+							</div>
+							<div class="d-flex justify-content-between align-items-center mb-3">
+								<a href="#" class="text-dark"> <i class="fas fa-chevron-left ml-1 align-middle"></i> خانه  </a>
+								<small> 10 مطلب </small>
+							</div>
+							<div class="d-flex justify-content-between align-items-center mb-3">
+								<a href="#" class="text-dark"> <i class="fas fa-chevron-left ml-1 align-middle"></i> اجاره  </a>
+								<small> 3 مطلب </small>
+							</div>
+							<div class="d-flex justify-content-between align-items-center mb-3">
+								<a href="#" class="text-dark"> <i class="fas fa-chevron-left ml-1 align-middle"></i> املاک معتبر  </a>
+								<small> 4 مطلب </small>
+							</div>
+							<div class="d-flex justify-content-between align-items-center mb-3">
+								<a href="#" class="text-dark"> <i class="fas fa-chevron-left ml-1 align-middle"></i> رهن  </a>
+								<small> 20 مطلب </small>
+							</div>
+							<div class="d-flex justify-content-between align-items-center mb-3">
+								<a href="#" class="text-dark"> <i class="fas fa-chevron-left ml-1 align-middle"></i> خرید ملک  </a>
+								<small> 9 مطلب </small>
+							</div>
+						</div>
+					</div>
+					<div class="card border-0 shadow mt-3">
+						<div class="card-body category-p">
+							<p class="mb-4">
+								<strong>
+								ابر برچسب ها
+								</strong>
+							</p>
+							<div class="tags">
+								<a href="#" class="btn btn-sm btn-light ml-1 mb-2"> گردشگری </a>
+								<a href="#" class="btn btn-sm btn-light ml-1 mb-2"> هومسا </a>
+								<a href="#" class="btn btn-sm btn-light ml-1 mb-2"> خانه </a>
+								<a href="#" class="btn btn-sm btn-light ml-1 mb-2"> آرشیو </a>
+								<a href="#" class="btn btn-sm btn-light ml-1 mb-2"> رهن و اجاره</a>
+								<a href="#" class="btn btn-sm btn-light ml-1 mb-2"> خرید ملک </a>
+								<a href="#" class="btn btn-sm btn-light ml-1 mb-2">باغ</a>
+							</div>
+						</div>
+					</div>
+				</div>	
+				<!-- start blog post -->
+				<div class="col-12 col-lg-8 mt-3 mt-lg-0">
+				<div class="card border-0 shadow postblog">
+					<div class="card-body">
+						<h5> نکاتی برای خرید خانه !!!! </h5>
+						<div class="d-flex my-4">
+							<small class="ml-4 text-muted"> <i class="fas fa-user align-middle"> </i> هادی اسمعیل پور</small>
+							<small class="ml-4 text-muted"> <i class="fas fa-calendar align-middle"> </i> 16 خرداد 1401</small>
+							<small class="ml-4 text-muted"> <i class="align-middle fas fa-eye"> </i> 315 بازدید </small>
+							<small class="ml-4 text-muted"> <i class="align-middle fas fa-comment"> </i> 15 دیدگاه </small>
+						</div>
+						<div>
+							<img src="img/neonbrand-Wp7t4cWN-68-unsplash.jpg" class="img-fluid  mb-3" alt="inside blog image">
+							<p class="text-justify">
+								<small>
+									لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+								</small>
+							</p>
+							<p class="text-justify">
+								<small>
+									لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+								</small>
+							</p>
+							<h5 class="mt-4"> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ </h5>
+							<p class="text-justify">
+								<small>
+									لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+								</small>
+							</p>
+							<div class="card border-0 bg-light my-3 qu">
+								<div class="card-body">
+									<p class="mb-0">
+										<div>
+										<img src="img/quotation-marks.png" class="img-fluid mb-2" alt="qu">
+									</div>
+									<small> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </small>
+									</p>
+								</div>
+							</div>
+							<p class="text-justify">
+								<small>
+									لورم ایپسوم متن ساختگی با تولیان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهاابگوی سوالات پیوستیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+								</small>
+							</p>
+							<p class="text-justify">
+								<small>
+									لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+								</small>
+							</p>
+						</div>
+					</div>
+					<div class="card-footer bg-transparent">
+						<small class="ml-2"> اشتراک گذاری : </small>
+						<a href="#" class="btn text-muted bg-light ml-2"> <i class="fab fa-instagram align-middle"></i> </a>
+						<a href="#" class="btn text-muted bg-light ml-2"> <i class="align-middle fab fa-twitter"></i> </a>
+						<a href="#" class="btn text-muted bg-light ml-2"> <i class="align-middle fab fa-telegram"></i> </a>
+						<a href="#" class="btn text-muted bg-light ml-2"> <i class="fab fa-facebook align-middle"></i> </a>
+					</div>
+				</div>
+				<div class="my-4 d-flex justify-content-between align-items-center">
+					<a href="#" class="text-dark">
+						<div class="d-flex align-items-center right-arrow">
+							<p class="display-4 mb-4">
+								<i class="fas fa-chevron-circle-right align-middle"></i>
+							</p>
+							<div class="mr-2">
+								<p class="mb-1">  پست بعدی </p>
+								<small> چگونه اسباب کشی کنیم ؟! </small>
+							</div>
+						</div>
+					</a>
+					<a href="#" class="text-dark">
+						<div class="d-flex align-items-center right-arrow">
+							<div class="ml-2 text-left">
+								<p class="mb-1">  پست قبلی </p>
+								<small> چگونه خانه بفروشیم ؟! </small>
+							</div>
+								<p class="display-4 mb-4">
+								<i class="fas fa-chevron-circle-left align-middle"></i>
+							</p>
+						</div>
+					</a>
+				</div>
+				<div class="card border-0 shadow postblog ">
+						<div class="card-header bg-transparent d-flex flex-column flex-lg-row mb-0 pb-0">
+							<div class="d-flex ">
+								<p> دیدگاه ها : </p>
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="d-flex flex-column flex-lg-row align-items-center mb-4 review">
+								<img src="img/brown-wooden-house-near-trees-2360673.jpg" class="img-fluid ml-2" alt="commnets">
+								<div>
+								<div class="d-flex align-items-center mt-3 mt-lg-0">
+									<p class="mb-0" style="font-weight: 300;"> هادی اسمعیل پور</p>
+									<div class="mr-2">
+										<a href="#" style="color: #FFEB3B;"> <i class="fas fa-star align-middle"></i> </a>
+										<a href="#" style="color: #FFEB3B;"> <i class="fas fa-star align-middle"></i> </a>
+										<a href="#" style="color: #FFEB3B;"> <i class="fas fa-star align-middle"></i> </a>
+										<a href="#" style="color: #ccc;"> <i class="fas fa-star align-middle"></i> </a>
+										<a href="#" style="color: #ccc;"> <i class="fas fa-star align-middle"></i> </a>
+									</div>
+								</div>
+								<small class="text-muted d-block" style="font-weight: 300;"> 12 خرداد 1401</small>
+								<small>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </small>
+								</div>
+							</div>
+						</div>
+				</div>	
+				<div class="card border-0 shadow mt-4 postblog">
+						<div class="card-header bg-transparent pb-0">
+							<h6 class="mb-3 d-block">  دیدگاه خود را وارد کنید </h6>
+							<div class="d-flex">
+								<p style="font-weight: 300;"> امتیاز شما : </p>
+								<div class="mr-2 star">
+									<a href="#" style="color: #ccc;"> <i class="fas fa-star align-middle"></i> </a>
+									<a href="#" style="color: #ccc;"> <i class="fas fa-star align-middle"></i> </a>
+									<a href="#" style="color: #ccc;"> <i class="fas fa-star align-middle"></i> </a>
+									<a href="#" style="color: #ccc;"> <i class="fas fa-star align-middle"></i> </a>
+									<a href="#" style="color: #ccc;"> <i class="fas fa-star align-middle"></i> </a>
+								</div>
+							</div>	
+						</div>
+						<div class="card-body reviwe2">
+							<form action="POST">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="نام خود را وارد کنید">
+								</div>
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="ایمیل خود را وارد کنید">
+								</div>
+								<div class="form-group">
+									<textarea cols="30" rows="10" style="resize: none;" class="form-control" placeholder="دیدگاه شما . . ."></textarea>
+								</div>
+							</form>
+							<a href="#" class="btn px-5 hvr-push"> ارسال دیدگاه </a>
+						</div>
+				</div>
+				<div class="card border-0 bg-transparent mt-5 mb-5 postblog">
+                	<h5 class="mb-4"> موارد مرتبط </h5>
+                	<div class="row">
+                	    <div class="col-12 col-lg-6">
+                        	<div class="card border-0 p-2 custom-card-1 shadow-sm hover-card mb-2">
+                        	    <div class="card-img card-img-custom">
+                        	        <div class="overlay4">
+                        	            <a href="inside blog.html" class="btn"> مشاهده بیشتر </a>
+                        	        </div>
+                        	        <img src="img/view-of-high-rise-buildings-during-day-time-302769.jpg" class="img-fluid card-img-top img2"
+                        	             alt="morepost">
+                        	    </div>
+                        	    <div class="card-body py-2 px-1">
+                        	        <p>
+                        	            <strong>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</strong>
+                        	        </p>
+                        	        
+                        	        <small class="d-block"> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                        	            چاپ با تولید سادگی نامفهوم از </small>
+                        	    </div>
+                        	    <div class="card-footer bg-white d-flex justify-content-between align-items-center pb-0 px-1">
+                        	        
+                        	        <small class="">
+                        	            <strong class="text-muted mb-0"><i class="fas fa-user align-middle ml-1"></i>هادی اسمعیل پور 
+                        	            </strong>
+                        	        </small>
+									<small class="mb-2 text-muted"><i class="fas fa-calendar align-middle ml-2"></i> 26 تیر 1401
+									</small>
+                        	    </div>
+                        	</div>
+                	    </div>
+						<div class="col-12 col-lg-6">
+                        	<div class="card border-0 p-2 custom-card-1 shadow-sm hover-card mb-2">
+                        	    <div class="card-img card-img-custom">
+                        	        <div class="overlay4">
+                        	            <a href="inside blog.html" class="btn"> مشاهده بیشتر </a>
+                        	        </div>
+                        	        <img src="img/view-of-high-rise-buildings-during-day-time-302769.jpg" class="img-fluid card-img-top img2"
+                        	             alt="morepost">
+                        	    </div>
+                        	    <div class="card-body py-2 px-1">
+                        	        <p>
+                        	            <strong>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</strong>
+                        	        </p>
+                        	        
+                        	        <small class="d-block"> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                        	            چاپ با تولید سادگی نامفهوم از </small>
+                        	    </div>
+                        	    <div class="card-footer bg-white d-flex justify-content-between align-items-center pb-0 px-1">
+                        	        
+                        	        <small class="">
+                        	            <strong class="text-muted mb-0"><i class="fas fa-user align-middle ml-1"></i>هادی اسمعیل پور 
+                        	            </strong>
+                        	        </small>
+									<small class="mb-2 text-muted"><i class="fas fa-calendar align-middle ml-2"></i> 26 تیر 1401
+									</small>
+                        	    </div>
+                        	</div>
+                	    </div>
+                	</div>
+                </div>
+				</div>
+			</div>
+		</div>
+<!-- Start Register  -->	
+<div class="register py-5">
+	<div class="container">
+		<div class="row flex-column flex-lg-row align-items-center justify-content-between text-center">
+			<div>
+				<h4 style="font-size: 29px;word-spacing: 3px;">  همین حالا آگهی خود را ثبت کنید !!!!!   </h4>
+				<small style="font-size: 17px;word-spacing: 3px;"> در بین 893.213 آگهی معتبر شما نیز همراه ما دیده شوید . . .  </small>
+			</div>
+			<div class="mt-3 mt-lg-0">
+				<a href="#" class="btn px-4"> ثبت آگهی </a>
+			</div>
+		</div>
+	</div>	
+</div>
+<!-- End Register  -->			
+	</main>
+<!-- Start Footer  -->	
+	<footer>
+		<div class="footer-top py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-3 text-center text-lg-right mb-3">
+					<h6 class="text-white mb-4"> درباره هومسا </h6>
+					<p class="text-muted">
+						لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است 
+					</p>
+				</div>
+				<div class="col-12 col-lg-3 text-center text-lg-right mb-3">
+					<h6 class="text-white mb-4"> لینک های مرتبط </h6>
+					<ul class="nav pr-0 flex-column"> 
+						<li class="nav-item"> <a href="about us.html" class="nav-link text-muted pt-0 pr-0"> درباره ما </a> </li>
+						<li class="nav-item"> <a href="contact Us.html" class="nav-link text-muted pt-0 pr-0"> تماس با ما </a> </li>
+						<li class="nav-item"> <a href="#" class="nav-link text-muted pt-0 pr-0"> راهنمای مشتریان </a> </li>
+						<li class="nav-item"> <a href="#" class="nav-link text-muted pt-0 pr-0"> قوانین ما </a> </li>
+						<li class="nav-item"> <a href="#" class="nav-link text-muted pt-0 pr-0"> پشتیبانی </a> </li>
+					</ul>
+				</div>
+				<div class="col-12 col-lg-3 text-center text-lg-right mb-3">
+					<h6 class="text-white mb-4"> ارتباط با ما </h6>
+					<p class="d-block text-muted mb-2 address"> تبریز، ولیعصر، فلکه رودکی، ساختمان آفرینش</p>
+					<p class="d-block text-muted mb-2"> homsa@gmail.com </p>
+					<p class="d-block text-muted mb-2"> 041-3256575 </p>
+				</div>
+				<div class="col-12 col-lg-3 text-center text-lg-right mb-3">
+					<h6 class="text-white mb-4"> هومسا در شبکه های اجتماعی</h6>
+					<div class="follow">
+						<a href="#" class="ml-3 text-muted"> <i class="fab fa-instagram align-middle"></i> </a>
+						<a href="#" class="ml-3 text-muted"> <i class="align-middle fab fa-facebook"></i> </a>
+						<a href="#" class="ml-3 text-muted"> <i class="align-middle fab fa-twitter"></i> </a>
+						<a href="#" class="ml-3 text-muted"> <i class="align-middle fab fa-telegram"></i> </a>
+					</div>
+					<h6 class="text-white my-4"> عضویت در خبرنامه</h6>
+					<div class="follow2 d-flex justify-content-center justify-content-lg-between">
+						<div class="form-group">
+							<input type="text" class="form-control rounded-pill py-3 border-0" placeholder="ایمیل خود را وارد کنید . . . ">
+						</div>
+						<div class="mr-2 mr-lg-0">
+							<a href="#" class="btn"> <i class="fas fa-chevron-left align-middle"></i> </a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>	
+			<div class="footer-bottom py-3">
+	<div class="container">
+		<div class="row d-flex flex-column flex-lg-row justify-content-center align-items-center">
+			<p class="mb-0 text-muted mt-2 mt-lg-0">All rights reserved 2022 - Homesa@</p>
+		</div>
+	</div>
+	</div>
+	</footer>
+	<!-- End Footer  -->			
+</body>
+	
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/all.min.js"></script>
+<script src="js/myscripts.js"></script>
+
+</html>
