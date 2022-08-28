@@ -263,21 +263,21 @@ li.slick-active button {
 }
 @media screen and (max-width:768px) {
 	.city-images2 {
-		width: 510px;
+		width: 350px;
 		height: 309px;	
 	}
 	.city-images2 img {
-		width: 510px;
+		width: 350px;
 		height: 309px;	
 	}
 }
 @media screen and (max-width:550px) {
 	.city-images2 {
-		width: 250px !important;
+		width: 200px !important;
 		height: 275px;	
 	}
 	.city-images2 img {
-		width: 250px !important;
+		width: 200px !important;
 		height: 275px;	
 	}
 }
